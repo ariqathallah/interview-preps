@@ -13,7 +13,7 @@ func pangrams(s string) string {
 		}
 	}
 
-	for i := 'a'; i < 'z'; i++ {
+	for i := 'a'; i <= 'z'; i++ {
 		if m[i] == 0 {
 			return "not pangram"
 		}
